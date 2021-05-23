@@ -22,7 +22,6 @@ def menu():
     print("[0] Exit the program.")
 #############################################
 
-
 ############# Function option1 ##############
 def option1():
     print(" ")
@@ -66,6 +65,8 @@ def option2():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
+#############################################
+
 ############# Function option3 ##############
 def option3():
     print(" <<===============<< Brute Force md5 >>=================>>")
@@ -84,6 +85,8 @@ def option3():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
+#############################################
+
 ############# Function option4 ##############
 def option4():
     print(" <<===============<< Brute Force SHA1 >>=================>>")
@@ -102,6 +105,8 @@ def option4():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
+#############################################
+
 ############# Function option5 ##############
 def option5():
     print(" <<===============<< Brute Force SHA256 >>=================>>")
@@ -120,6 +125,8 @@ def option5():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
+#############################################
+
 ############# Function option6 ##############
 def option6():
         print(" ")
@@ -138,8 +145,9 @@ def option6():
         print(ascii_banner)
         time.sleep(1)
 
-#################################################################
-#################################################################
+#############################################
+############# End Function ##################
+#############################################
 
 ################### Menu ####################
 menu()
