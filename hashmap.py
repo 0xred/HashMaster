@@ -42,7 +42,6 @@ def option1():
 #############################################
 
 ############# Function option2 ##############
-
 def option2():
     print("")
     print(" <<============<< Generate Hash >>================>>")
@@ -67,7 +66,7 @@ def option2():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
-#############################################
+############# Function option3 ##############
 def option3():
     print(" <<===============<< Brute Force md5 >>=================>>")
     md55hash = input('\033[1;96m'" Add hash To Start Cracked =====> "'\033[1;92m')
@@ -85,7 +84,7 @@ def option3():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
-#############################################
+############# Function option4 ##############
 def option4():
     print(" <<===============<< Brute Force SHA1 >>=================>>")
     SHA1hash = input("please input the hash to crack.\n>")
@@ -103,7 +102,7 @@ def option4():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
-#################################################################
+############# Function option5 ##############
 def option5():
     print(" <<===============<< Brute Force SHA256 >>=================>>")
     sha256hash = input("please input the hash to crack.\n>")
@@ -121,7 +120,7 @@ def option5():
         os.system('cls')
         print(ascii_banner)
         time.sleep(1)
-#################################################################
+############# Function option6 ##############
 def option6():
         print(" ")
         print(" <<===============<< How Using Tools? >>=================>>")
@@ -139,6 +138,7 @@ def option6():
         print(ascii_banner)
         time.sleep(1)
 
+#################################################################
 #################################################################
 
 ################### Menu ####################
