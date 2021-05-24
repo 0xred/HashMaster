@@ -712,7 +712,7 @@ def option6():
 menu()
 option = int(input(" Enter Your Option: "))
 
-while option != 0:
+while option != 99:
     if option == 1:
         option1()
     elif option == 2:
