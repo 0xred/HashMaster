@@ -11,7 +11,7 @@ from sys import argv, exit
 #############################################
 os.system('cls' if os.name == 'nt' else 'clear')
 os.system("color B")
-ascii_banner = pyfiglet.figlet_format("Hash Map")
+ascii_banner = pyfiglet.figlet_format("Hash Master")
 print(ascii_banner)
 ################### Menu ####################
 def menu():
@@ -737,4 +737,4 @@ while option != 99:
     menu()
     option = int(input(" Enter Your Option: "))
 
-print(" Thank For using this program. Goodbye. ") 
+print(" See You Later ..... ") 
