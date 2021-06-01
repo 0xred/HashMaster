@@ -14,7 +14,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 os.system("color B")
 ascii_banner = pyfiglet.figlet_format("Hash Master")
 print(ascii_banner)
-print("••• By RedShadow")
+print(" ••• By RedShadow")
 ################### Menu ####################
 def menu():
     print(" [1] MD5 Cracked ")
